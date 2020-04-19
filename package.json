@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Binarysearch/tssc-template#readme",
   "dependencies": {
-    "@piros/tssf": "0.0.1",
+    "@piros/tssf": "0.0.2",
     "typescript": "^3.8.3"
   }
 }
