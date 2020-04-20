@@ -1,9 +1,7 @@
 import { Post, Controller } from "@piros/tssf";
 import { ExampleService } from "./example-service";
+import { SomeDto } from "./dtos/some-dto";
 
-interface SomeDto {
-    name: string;
-}
 
 @Controller
 export class ExampleController {

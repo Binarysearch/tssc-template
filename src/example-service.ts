@@ -1,6 +1,5 @@
 import { Injectable } from "@piros/tssf";
 
-
 @Injectable
 export class ExampleService {
 

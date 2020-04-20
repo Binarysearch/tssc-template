@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./dist/index.js"
+    "start": "tsc && node ./dist/index.js",
+    "generate-code": "node node_modules/@piros/tssf/ng-codegen/generate.js src/index.ts generated-code"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   },
   "homepage": "https://github.com/Binarysearch/tssc-example#readme",
   "dependencies": {
-    "@piros/tssf": "0.0.2",
+    "@piros/tssf": "0.0.5",
     "typescript": "^3.8.3"
   }
 }
