@@ -1,6 +1,6 @@
-import { TestController } from "./test-controller";
+import { ExampleController } from "./example-controller";
 
 
-const controllers = [
-    TestController
+export const controllers = [
+    ExampleController
 ];

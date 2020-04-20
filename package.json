@@ -1,21 +1,21 @@
 {
-  "name": "tssc-template",
+  "name": "tssc-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Binarysearch/tssc-template.git"
+    "url": "git+https://github.com/Binarysearch/tssc-example.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Binarysearch/tssc-template/issues"
+    "url": "https://github.com/Binarysearch/tssc-example/issues"
   },
-  "homepage": "https://github.com/Binarysearch/tssc-template#readme",
+  "homepage": "https://github.com/Binarysearch/tssc-example#readme",
   "dependencies": {
     "@piros/tssf": "0.0.2",
     "typescript": "^3.8.3"
